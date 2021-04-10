@@ -1,10 +1,11 @@
 import "./styles.css";
+import { Fragment } from "react";
+import Header from "./components/Header";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen! fsdf</h2>
-    </div>
+    <Fragment>
+      <Header titulo="Clima React App" />
+    </Fragment>
   );
 }
